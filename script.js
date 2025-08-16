@@ -206,9 +206,9 @@ window.onload = function() {
 	audio.volume = 0.6;
   } 
   const faviconUrls = [
-	"download-1.png",
-	"download-2.png",
-	"download-3.png"
+	"/fly/download-1.png",
+	"/fly/download-2.png",
+	"/fly/download-3.png"
   ];
   let index = 0;
   function changeFavicon() {
