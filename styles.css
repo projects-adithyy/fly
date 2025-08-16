@@ -1,0 +1,71 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	color: #000000;
+	background-color: rgb(117, 113, 113);
+}
+
+.content {
+	height: 300px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@media screen and (min-width: 360px) {
+	.content {
+		height: 100vh;
+		overflow: hidden;
+	}
+}
+
+.content__title {
+	font-family: "OTF® Glusp", Arial, sans-serif;
+	text-transform: uppercase;
+	z-index: 10000;
+	font-size: 4vw;
+}
+
+.content__img {
+	max-width: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+
+@media screen and (min-width: 50em) {
+	body {
+		overflow: hidden;
+	}
+	.content {
+		height: 100vh;
+		overflow: hidden;
+	}
+}
+.expanded-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(114, 114, 114, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	border-radius: 4px;
+}
+
+.expanded-image img {
+    max-width: 90%;
+    max-height: 90%;
+	border-radius: 5px;
+}
+

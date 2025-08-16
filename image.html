@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Films</title>
+		<link rel="icon" type="image/png" href="/download.png">
+		<link rel="stylesheet" type="text/css" href="/styles.css">
+		<style>
+			@media only screen and (max-width: 720px) {
+				.content {
+					display: none;
+				}
+			}
+			@media only screen and (max-width: 420px) {
+				.not-compatible {
+					display: block;
+					margin-top: 20px;
+					text-align: center;
+					margin-top: 20px;
+					font-size: 48px;
+					color: #333;
+				}
+			}
+			@media only screen and (min-width: 421px) {
+				.not-compatible {
+					display: none;
+					margin-top: 20px;
+					text-align: center;
+					margin-top: 20px;
+					font-size: 48px;
+					color: #333;
+				}
+			}
+			audio{
+  display: none;
+}
+		</style>
+	</head>
+	<body>
+		<audio id="audio" controls preload="yes" loop> <source src="Home-Resonance-slowed-Blade-Runner-2049-song.mp3" type="audio/mp3"> <embed src="Home-Resonance-slowed-Blade-Runner-2049-song.mp3" loop> </audio>
+
+		<main>
+			<div class="content">
+				<img class="content__img" src="a.jpg">
+				<img class="content__img" src="b.jpg">
+				<img class="content__img" src="c.jpg">
+				<img class="content__img" src="d.jpg">
+				<img class="content__img" src="e.jpg">
+				<img class="content__img" src="f.jpg">
+				<img class="content__img" src="g.jpg">
+				<img class="content__img" src="h.jpg">
+				<img class="content__img" src="i.jpg">
+				<img class="content__img" src="j.jpg">
+				<img class="content__img" src="k.jpg">
+				<img class="content__img" src="l.jpg">
+
+				<h3 class="content__title">the-films</h3>
+
+				</div>
+			</div>
+
+		</main>
+		<div class="not-compatible">
+			Im sorry, I didn't bother to make this webpage mobile compatible as it is not possible.
+			hop on to your desktop to view/experience the page!!
+	</div>
+
+		<script src="imagesloaded.pkgd.min.js"></script>
+		<script src="TweenMax.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
